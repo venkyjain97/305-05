@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+  
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin-left: 10%;
+    height: 100%;
+    width: 20%;
+    
+}
+.logo img{
+    height: 90%;
+    width: 30%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    width:40% ;
+    height: 100%;
+    
+}
+.icons ul{
+    display: flex;
+    
+    width:100% ;
+    height: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+
+}
+.li{
+    width: 15%;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li:hover{
+    color: blue;
+    width: 15%;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons ul li{
+   
+    color: rgb(74, 74, 74);
+ 
+  
+    
+}
+.icons ul li a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+   
+    
+    
+}
+.login{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 100%;
+}
+.login button{
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+   
+    background: none;
+}
+.btn1{
+    border: none;
+    color: rgb(112, 112, 112);
+}
+.btn2{
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid blue;
+    color: rgb(58, 27, 214);
+}
+.div{
+    border: 1px solid rgb(169, 170, 168);
+    background-color: rgb(169, 170, 168);
+    margin: 5px;
+}
+.main{
+    height: 89%;
+    width: 100%;
+    display: flex;
+
+}
+.left{
+
+   
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:5% ;
+    
+}
+.header{
+    width: 70%;
+    font-size: 1.3rem;
+    height: 20%;
+    margin-top: 3%;
+    color: rgb(228, 81, 55);
+    font-family: 'Open Sans', sans-serif;
+}
+.info{
+   
+    height: 20%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.info input{
+    height: 50%;
+   margin-top: 5px;
+   padding: 1%;
+}
+.info input:focus{
+    height: 50%;
+   margin-top: 5px;
+   
+   outline: black;
+   border-radius: 4px;
+}
+.policy{
+    color: grey;
+    width: 70%;
+    height: 10%;
+    padding:0 2%;
+}
+.policy a{
+   text-decoration: none;
+    width: 50%;
+    height: 10%;
+    padding:0 2%;
+}
+.button{
+    
+    width: 70%;
+    height: 10%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;    
+}
+.button button{
+    border: none;
+    padding: 6px;
+    color: aliceblue;
+    background-color: blue;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center; 
+    align-self: center; 
+    font-weight: 10; 
+    font-size: 1.5rem; 
+    align-content: center;
+    border-radius: 25px;
+}
+.line{
+    width: 70%;
+    text-align: center;
+    color: grey;
+}
+.signup{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+.img{
+    width: 50%;
+    padding: 5%;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 0px 1px;
+}
